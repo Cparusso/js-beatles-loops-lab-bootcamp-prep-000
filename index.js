@@ -2,10 +2,7 @@ function theBeatlesPlay(musiciansArr, instrumentsArr) {
   var resultArr = [];
 
   for (var i = 0; i < musiciansArr.length; i++){
-      var currentMusician = musiciansArr[i];
-      var currentInstrument = instrumentsArr[i];
-
-      resultArr.push(`${currentMusician} plays ${currentInstrument}`);
+      resultArr.push(`${musiciansArr[i]} plays ${instrumentsArr[i]}`);
   }
 
   return resultArr;
